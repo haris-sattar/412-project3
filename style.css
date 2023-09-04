@@ -13,9 +13,6 @@ body {
     box-sizing: border-box;
 }
 
-.page {
-    display: inline;
-}
 
 .flex-container {
     display: flex;
@@ -29,11 +26,62 @@ body {
     font-size: 1.5rem;
 }
 
+.contacts {
+    margin-top: 40%;
+}
+
+.contact-methods {
+    display: inline-block;
+}
+
+.linkedin {
+    margin-right: 25px;
+}
+
 .name {
     font-size: 3rem;
     font-family: 'Lora', serif;
 }
 
-.home {
-    text-decoration: underline;
+.heading {
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 0px;
+    height: 20%;
+}
+
+.headshot {
+    float: right;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.bio {
+    width: 60%;
+    font-size: 18px;
+}
+
+.involvement {
+    margin-left: 50px;
+}
+
+.vl1{
+    border-left: 6px solid black;
+    height: 290px;
+    float: right;
+}
+
+.involement-logos{
+    width: 100px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.area{
+    display: inline;
+}
+
+.involvement-text{
+    width: 80%;
+    margin-left: 10px;
 }
