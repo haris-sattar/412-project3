@@ -1,0 +1,83 @@
+/* sports.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff; /* Adjust the color to your preference */
+    margin-top: 5px;
+}
+
+.header-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sports-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sports-section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sports-subtitle {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.sports-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sports-image {
+    max-width: 50%;
+    margin-right: 20px;
+    width: 15%;
+}
+
+.sports-description {
+    font-size: 18px;
+    line-height: 1.5;
+}

@@ -85,3 +85,50 @@ body {
     width: 80%;
     margin-left: 10px;
 }
+
+.projects {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 5%;
+}
+
+.project-img{
+    max-width: 15%;
+    height: auto;
+}
+
+.vl2{
+    border-left: 2px solid #333;
+    height: 200px;
+    margin: 0 20px;
+}
+
+.project-description{
+    max-width: 50%;
+    text-align: left;
+}
+
+.resume-image{
+    float: left;
+    margin-right: 5%;
+    border: 2px solid black;
+}
+
+.section{
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.skills{
+    margin: 0 0;
+}
+
+
