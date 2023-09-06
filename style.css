@@ -129,3 +129,10 @@ body {
 .skills{
     margin: 0 0;
 }
+
+.ts-answer {
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 60%;
+    font-size: 1.1rem;
+}
