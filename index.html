@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haris Sattar - home</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./light.css" class="page_style" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,6 +23,10 @@
         <a href="./qual.html"><p class="item qual">Qualifications</p></a>
         <a href="./service.html"><p class="item service">Service</p></a>
         <a href="./ai.html"><p class="item ai">AI Page</p></a>
+        <div class="css-toggle">
+          <button type="button" onclick="light_mode()">Light Mode</button>
+          <button type="button" onclick="dark_mode()">Dark Mode</button>
+        </div>
         <div class="contacts">
           <a href="https://www.linkedin.com/in/haris-sattar-b53820225/"
             ><img
@@ -100,4 +104,7 @@
       </div>
     </div>
   </body>
+  <footer>
+    <script src="functions.js"></script>
+  </footer>
 </html>

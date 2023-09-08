@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Haris Sattar</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./light.css" class="page_style" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,6 +26,10 @@
             TypeScript
           </p></a
         >
+        <div class="css-toggle">
+          <button type="button" onclick="light_mode()">Light Mode</button>
+          <button type="button" onclick="dark_mode()">Dark Mode</button>
+        </div>
         <div class="contacts">
           <a href="https://www.linkedin.com/in/haris-sattar-b53820225/"
             ><img
@@ -44,11 +48,27 @@
         </div>
       </div>
       <div class="page">
-        <div class = "ts-answer">
-          <h1 class = "typescript-header">What is TypeScript and what are its advantages in Web Development?</h1>
-          <p class = "typescript-description">In basic terms, TypeScript is a better JavaScript. TypeScript has all the same features that JavaScript has, but it adds static typing, which allows developers to add types. This means if you were to code in JavaScript, it would still understand it. So, it is easier to catch errors in TypeScript since you have to specify which type is being passed around, something that is not done in JavaScript. It does this because TypeScript does compile time type checking. This means it checks the types before running the code, not when you run it. Even though it has these great features, it can still run in node.js or in a browser.</p>
+        <div class="ts-answer">
+          <h1 class="typescript-header">
+            What is TypeScript and what are its advantages in Web Development?
+          </h1>
+          <p class="typescript-description">
+            In basic terms, TypeScript is a better JavaScript. TypeScript has
+            all the same features that JavaScript has, but it adds static
+            typing, which allows developers to add types. This means if you were
+            to code in JavaScript, it would still understand it. So, it is
+            easier to catch errors in TypeScript since you have to specify which
+            type is being passed around, something that is not done in
+            JavaScript. It does this because TypeScript does compile time type
+            checking. This means it checks the types before running the code,
+            not when you run it. Even though it has these great features, it can
+            still run in node.js or in a browser.
+          </p>
         </div>
       </div>
     </div>
   </body>
+  <footer>
+    <script src="functions.js"></script>
+  </footer>
 </html>
