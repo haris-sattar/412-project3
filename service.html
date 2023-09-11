@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="grid-container">
-      <div class="flex-container sidebar">
+      <div class="flex-container sidebar top-nav">
         <p class="item name">Haris Sattar</p>
         <a href="./index.html"><p class="item home">Home</p></a>
         <a href="./tech.html"><p class="item tech">Tech</p></a>
@@ -22,8 +22,8 @@
         <a href="./service.html"><p class="item service" style="text-decoration: underline;">Service</p></a>
         <a href="./ai.html"><p class="item ai">AI Page</p></a>
         <div class="css-toggle">
-          <button type="button" onclick="light_mode()">Light Mode</button>
-          <button type="button" onclick="dark_mode()">Dark Mode</button>
+          <button type="button" onclick="light_mode()" class="css-switch">Light Mode</button>
+          <button type="button" onclick="dark_mode()" class="css-switch">Dark Mode</button>
         </div>
         <div class="contacts">
           <a href="https://www.linkedin.com/in/haris-sattar-b53820225/"><img class="contact-methods linkedin" src="./linkedIn.png" alt="linkedIn" width="50"></a>
@@ -31,9 +31,13 @@
         </div>
       </div>
       <div class="page">
+        <div class="button-indent">
+          <button type="button" onclick="style1()" class="css-switch switch2">Style #1</button>
+          <button type="button" onclick="style2()" class="css-switch switch2">Style #2</button>
+        </div>
         <h1 class ="projects">Service</h1>
           <div class ="project-container">
-            <img class = "project-img" src="./tcf.png" alt="tcf">
+            <img class = "project-img service-pics" src="./tcf.png" alt="tcf">
             <div class = "vl2"></div>
             <div class="project-description">
               <a href="https://www.tcfusa.org/"><h2>The Citizens Foundation</h2></a>
@@ -42,7 +46,7 @@
         </div>
 
         <div class ="project-container">
-          <img class = "project-img" src="./the_learning_room.png" alt="the learning room">
+          <img class = "project-img service-pics" src="./the_learning_room.png" alt="the learning room">
           <div class = "vl2"></div>
           <div class="project-description">
             <a href="https://www.tcfusa.org/"><h2>The Learning Room</h2></a>
@@ -51,7 +55,7 @@
       </div>
 
       <div class ="project-container">
-        <img class = "project-img" src="./tcm.png" alt="tcm">
+        <img class = "project-img service-pics" src="./tcm.png" alt="tcm">
         <div class = "vl2"></div>
         <div class="project-description">
           <a href="https://www.tcfusa.org/"><h2>Twin City Mission</h2></a>
@@ -60,7 +64,7 @@
     </div>
 
     <div class ="project-container">
-      <img class = "project-img" src="./shp.png" alt="shp">
+      <img class = "project-img service-pics" src="./shp.png" alt="shp">
       <div class = "vl2"></div>
       <div class="project-description">
         <a href="https://www.tcfusa.org/"><h2>Sleep in Heavenly Peace</h2></a>

@@ -14,18 +14,16 @@
   </head>
   <body>
     <div class="grid-container">
-      <div class="flex-container sidebar">
+      <div class="flex-container sidebar top-nav">
         <p class="item name">Haris Sattar</p>
-        <a href="./index.html"
-          ><p class="item home" style="text-decoration: underline">Home</p></a
-        >
+        <a href="./index.html"><p class="item home" style="text-decoration: underline">Home</p></a>
         <a href="./tech.html"><p class="item tech">Tech</p></a>
         <a href="./qual.html"><p class="item qual">Qualifications</p></a>
         <a href="./service.html"><p class="item service">Service</p></a>
         <a href="./ai.html"><p class="item ai">AI Page</p></a>
         <div class="css-toggle">
-          <button type="button" onclick="light_mode()">Light Mode</button>
-          <button type="button" onclick="dark_mode()">Dark Mode</button>
+          <button type="button" onclick="light_mode()" class="css-switch">Light Mode</button>
+          <button type="button" onclick="dark_mode()" class="css-switch">Dark Mode</button>
         </div>
         <div class="contacts">
           <a href="https://www.linkedin.com/in/haris-sattar-b53820225/"
@@ -45,46 +43,44 @@
         </div>
       </div>
       <div class="page">
+        <div class="button-indent">
+          <button type="button" onclick="style1()" class="css-switch switch2">Style #1</button>
+          <button type="button" onclick="style2()" class="css-switch switch2">Style #2</button>
+        </div>
         <div class="heading">
-          <h1 id="intro">
-            Hello, my name is Haris! Welcome to my website!<img
-              class="headshot"
-              src="./headshot.jpg"
-              alt=""
-              width="250"
-            />
-          </h1>
-          <p class="bio">
-            I am a junior computer science major from Austin, Texas. In my free
-            time, I like to thrift, play spikeball, and hangout with friends.
-            Throughout my time at A&M, I have tried my best to get invovled with
-            everything I can. I have played for the recreational spikeball team,
-            joined leadership organizations such as FLASH, and further developed
-            my career by pariticpating in SEC.
-          </p>
+          <h1 id="intro">Hello, my name is Haris! Welcome to my website!</h1>
+          <div class="new-heading">
+            <div class="picbutton">
+              <img class="headshot" src="./headshot.jpg" alt="" />
+            </div>
+            <p class="bio">
+              I am a junior computer science major from Austin, Texas. In my
+              free time, I like to thrift, play spikeball, and hangout with
+              friends. Throughout my time at A&M, I have tried my best to get
+              invovled with everything I can. I have played for the recreational
+              spikeball team, joined leadership organizations such as FLASH, and
+              further developed my career by participating in SEC.
+            </p>
+          </div>
         </div>
         <div class="involvement">
-          <h2>What I am involved with at Texas A&M University!</h2>
+          <h2 class="subheading">
+            What I am involved with at Texas A&M University!
+          </h2>
           <div class="vl1 area">
-            <div>
-              <br />
-              <p class="involvement-text">
-                Student Engineers' Council strives to be the representative
-                voice of all engineering students
-              </p>
-              <br />
-              <br />
-              <p class="involvement-text">
-                FLASH is a service/honor organization dedicated to developing
-                future TAMU leaders
-              </p>
-              <br />
-              <br />
-              <p class="involvement-text">
-                Aggie Originals is a social/service organization designed to
-                bring people together and help those in need
-              </p>
-            </div>
+            <p class="involvement-text">
+              Student Engineers' Council strives to be the representative voice
+              of all engineering students
+            </p>
+            <p class="involvement-text">
+              FLASH is a service/honor organization dedicated to developing
+              future TAMU leaders
+            </p>
+            <p class="involvement-text">
+              Aggie Originals is a social/service organization designed to bring
+              people together and help those in need
+            </p>
+            <p class="involvement-text" id = "no">Click below to check them out!</p>
           </div>
           <div class="involvement-pics area">
             <a href="https://sec.tamu.edu/"
@@ -105,6 +101,8 @@
     </div>
   </body>
   <footer>
+
+    &copy; 2023 Haris Sattar
     <script src="functions.js"></script>
   </footer>
 </html>
