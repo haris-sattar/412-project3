@@ -18,7 +18,7 @@ function dark_mode() {
     if (currentCSS == "./light.css") {
         links[0].setAttribute("href", "./dark.css");
         allCSS.push("./dark.css");
-        localStorage.setItem("css", "./style-dark.css");
+        localStorage.setItem("css", "./dark.css");
     }
     else if (currentCSS == "./style-light.css") {
         links[0].setAttribute("href", "./style-dark.css");
@@ -54,7 +54,17 @@ function style2() {
         localStorage.setItem("css", "./style-dark.css");
     }
 }
+window.onload = function () {
+    var links = document.getElementsByClassName("page_style");
+    var data = localStorage.getItem("css");
+    if (data != null) {
+        links[0].setAttribute("href", data);
+    }
+};
 var data = localStorage.getItem("css");
 if (data != null) {
     var allCSS = [data];
+}
+else {
+    var allCSS = [];
 }
